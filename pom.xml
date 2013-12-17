@@ -44,20 +44,7 @@
     
   </dependencies>
   
-<build>
 
-    <!-- To use the plugin goals in your POM or parent POM -->
-    <plugins>
-      <plugin>
-        <groupId>org.codehaus.sonar</groupId>
-        <artifactId>sonar-maven3-plugin</artifactId>
-        <version>4.0</version>
-	<configuration>
-	  <sonar.host.url>http://192.168.1.202:9000</sonar.host.url>	  
-	</configuration>
-      </plugin>
-    </plugins>
-  </build>  
   
   
 </project>
